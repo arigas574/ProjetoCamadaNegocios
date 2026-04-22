@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Conexão com o seu banco airbnb_clone
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://100.95.82.54:27017/")
 db = client["airbnb_clone"]
 
 # --- HELPER: Conversão de string para datetime ---
